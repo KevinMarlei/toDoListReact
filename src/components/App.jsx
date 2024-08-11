@@ -27,6 +27,7 @@ function App() {
       localStorage.setItem('tarefa', JSON.stringify(updateTasks));
       setIsEditing(false);
       setEditIndex(null);
+      setInputText('');
     }else{
 
       setElement((event) => {
